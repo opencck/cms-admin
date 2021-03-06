@@ -1,0 +1,3 @@
+[submodule "api/includes"]
+	path = api/includes
+	url = git@bitbucket.org:t-32167/api.git
