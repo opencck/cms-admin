@@ -3,23 +3,11 @@ Nuxt admin panel for OpenCCK CMS
 
 ## Build Setup
 ```bash
-# download
-$ mkdir cck; cd cck
-$ git clone git@bitbucket.org:Rekryt/cck.git .
-$ git submodule init
-$ git submodule update
-
-# setup environtment
-$ cp api/.example.env api/.env
-
-# install app dependencies
+# install dependencies
 $ npm install
-$ composer install
 
-# install api dependencies
-$ cd api/includes
-$ npm install
-$ composer install
+# copy and set environments
+$ cp .env.example .env
 ```
 
 ### Development
