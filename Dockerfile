@@ -1,8 +1,3 @@
-FROM node:10.23
+FROM node:14.16
 
-WORKDIR /app
-
-COPY . /app
-
-RUN npm install
-RUN npm run build
+WORKDIR /var/www
