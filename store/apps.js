@@ -4,21 +4,21 @@
 import { itemState, itemMutations, itemGetters, itemActions } from './mixins/app.js';
 
 let config = {
-	appName: 'apps',
+    appName: 'apps',
 };
 
 export const state = () => ({
-	...itemState(),
+    ...itemState(),
 });
 
 export const mutations = {
-	...itemMutations(),
+    ...itemMutations(),
 };
 
 export const getters = {
-	...itemGetters(),
+    ...itemGetters(),
 };
 
 export const actions = {
-	...itemActions(config.appName, null, true),
+    ...itemActions(config.appName, null, true),
 };

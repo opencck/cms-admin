@@ -1,7 +1,9 @@
 ## OpenCCK Admin
+
 Nuxt admin panel for OpenCCK CMS
 
 ## Build Setup
+
 ```bash
 # install dependencies
 $ npm install
@@ -11,12 +13,14 @@ $ cp .env.example .env
 ```
 
 ### Development
+
 ```bash
 # serve with hot reload
 $ npm run dev
 ```
 
 ### Production
+
 ```bash
 # build for production
 $ npm run build

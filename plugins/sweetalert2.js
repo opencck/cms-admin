@@ -13,5 +13,5 @@ Vue.use(VueSweetalert2);
  * @param inject
  */
 export default (ctx, inject) => {
-	inject('swal', Vue.swal);
+    inject('swal', Vue.swal);
 };

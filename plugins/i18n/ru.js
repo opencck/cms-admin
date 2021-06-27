@@ -1,3 +1,3 @@
 export default {
-	welcome: 'Добро пожаловать',
+    welcome: 'Добро пожаловать',
 };

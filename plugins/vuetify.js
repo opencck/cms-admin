@@ -8,22 +8,22 @@ import '@mdi/font/css/materialdesignicons.css';
 Vue.use(Vuetify);
 
 export default (ctx) => {
-	const vuetify = new Vuetify({
-		customVariables: ['~/assets/variables.scss'],
-		theme: {
-			dark: true,
-			themes: {
-				dark: {
-					primary: colors.blue.darken2,
-					accent: colors.grey.darken3,
-					secondary: colors.amber.darken3,
-					info: colors.teal.lighten1,
-					warning: colors.amber.base,
-					error: colors.deepOrange.accent4,
-					success: colors.green.accent3,
-				},
-			},
-			/*themes: {
+    const vuetify = new Vuetify({
+        customVariables: ['~/assets/variables.scss'],
+        theme: {
+            dark: true,
+            themes: {
+                dark: {
+                    primary: colors.blue.darken2,
+                    accent: colors.grey.darken3,
+                    secondary: colors.amber.darken3,
+                    info: colors.teal.lighten1,
+                    warning: colors.amber.base,
+                    error: colors.deepOrange.accent4,
+                    success: colors.green.accent3,
+                },
+            },
+            /*themes: {
 				light: {
 					primary: '#4caf50',
 					secondary: '#4caf50',
@@ -35,12 +35,12 @@ export default (ctx) => {
 					warning: '#ffa21a',
 				},
 			},*/
-		},
-		icons: {
-			iconfont: 'mdi',
-		},
-	});
+        },
+        icons: {
+            iconfont: 'mdi',
+        },
+    });
 
-	ctx.app.vuetify = vuetify;
-	ctx.$vuetify = vuetify.framework;
+    ctx.app.vuetify = vuetify;
+    ctx.$vuetify = vuetify.framework;
 };
